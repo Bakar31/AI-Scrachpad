@@ -31,6 +31,7 @@ vgg_model = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(512, (3, 3), 1, padding = 'same', activation='relu'),
     tf.keras.layers.MaxPool2D((2, 2), 2),
 
+    tf.keras.layers.Flatten(),
     tf.keras.layers.Dense(4096, activation = 'relu'),
     tf.keras.layers.Dense(4096, activation = 'relu'),
     tf.keras.layers.Dense(1000, activation = 'softmax')
