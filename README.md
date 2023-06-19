@@ -1,5 +1,9 @@
 # AI from scratch
 
+## Machine Learnign
+
+- Linear Regression
+
 ## Deep Learning
 
 ### Theory covered
